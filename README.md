@@ -1,29 +1,14 @@
 # drupal-vagrant
 # Vagrant virtual machine with clean Drupal 8.x inside
-
 #### Requirements:
-* vagrant
-* virtual box
-* composer
-
+* Vagrant
+* Virtual box
+* Composer
 #### VM specs:
 * Ubuntu 16.04
 * PHP 7
-* Mysql 5.7
-* Drupal
-
->mysql user 
->
->    root 
->mysql pass 
->
->    root 
->access
->
->    localhost:8888
-
-
-
+* Mysql 5.7 (user: root  pass: root)
+* Drupal  (http://localhost:8888)
 > ## Installation:
 > 
 >1)   clone repo
@@ -42,7 +27,6 @@
 >     cd /vagrant
 >     ./bootstrap-vm.sh
      
-
 That's it, now go to localhost:8888 on your host machine
    &
 enjoy :)
