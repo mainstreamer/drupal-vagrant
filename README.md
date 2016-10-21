@@ -35,7 +35,7 @@ That's it, now go to localhost:8888 on your host machine
    &
 enjoy :)
 
-
+===
 Note - first boot might be slow (20-30 sec ) that's drupal is warming up cache and stuff
 
 ### File sync:
