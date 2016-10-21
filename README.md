@@ -1,4 +1,4 @@
-## Vagrant virtual machine with clean Drupal 8.x inside
+## Vagrant virtual machine with Ubuntu 16.04 and clean Drupal 8.x
 #### Requirements:
 * Vagrant
 * Virtual box
