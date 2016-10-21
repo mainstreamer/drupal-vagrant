@@ -7,9 +7,9 @@
 
 #### VM specs:
 * Ubuntu 16.04
-* PHP 7
+* PHP 7.0
 * Mysql 5.7 (user: root  pass: root)
-* Drupal  (http://localhost:8888)
+* Drupal 8.x (http://localhost:8888)
 
 > ## Installation:
 > 
@@ -36,7 +36,10 @@ enjoy :)
 
 Note - first boot might be slow (20-30 sec ) that's drupal is warming up cache and stuff
 
-File sync:
+### File sync:
+>cd into project and run:
+> 
+>     composer install
 
 Use rsync to immediately push any changes from your host to guest
 to do that - go to project root and run:
