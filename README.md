@@ -13,6 +13,7 @@
 > ## Installation:
 > 
 >1)   clone repo
+>
 >     git clone git@github.com:mainstreamer/drupal-vagrant.git
 >2)   cd into project and run:
 > 
@@ -27,6 +28,8 @@
 > 
 >     cd /vagrant
 >     ./bootstrap-vm.sh
+     
+     
      
 That's it, now go to localhost:8888 on your host machine
    &
@@ -46,7 +49,7 @@ To do that - go to project root and run:
 
     vagrant rsync-auto
 
-to sync files from guest to host install vagrant plugin **vagrant-rsync-back** and run
+To sync files from guest to host install vagrant plugin **vagrant-rsync-back** and run
 
     vagrant rsync-back
 
