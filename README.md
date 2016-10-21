@@ -36,7 +36,8 @@ enjoy :sunglasses:
 
 ===
 Note - first boot might be slow (20-30 sec ) that's drupal is warming up cache and stuff
----
+===
+
 ### File sync:
 
 Use rsync to immediately push any changes from your host to guest
