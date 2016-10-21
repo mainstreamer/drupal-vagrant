@@ -1,5 +1,4 @@
-# drupal-vagrant
-# Vagrant virtual machine with clean Drupal 8.x inside
+## Vagrant virtual machine with clean Drupal 8.x inside
 #### Requirements:
 * Vagrant
 * Virtual box
@@ -14,7 +13,7 @@
 > ## Installation:
 > 
 >1)   clone repo
->
+>     git clone git@github.com:mainstreamer/drupal-vagrant.git
 >2)   cd into project and run:
 > 
 >     composer install
