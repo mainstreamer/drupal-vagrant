@@ -4,11 +4,13 @@
 * Vagrant
 * Virtual box
 * Composer
+
 #### VM specs:
 * Ubuntu 16.04
 * PHP 7
 * Mysql 5.7 (user: root  pass: root)
 * Drupal  (http://localhost:8888)
+
 > ## Installation:
 > 
 >1)   clone repo
