@@ -45,9 +45,10 @@ To do that - go to project root and run:
 
     vagrant rsync-auto
 
-To sync files from guest to host install vagrant plugin **vagrant-rsync-back** and run
+To sync files from guest to host install vagrant plugin **vagrant-rsync-back** 
+
+    vagrant plugin install vagrant-rsync-back
+
+and then every time you need to pull changes from your guest back to your host machine run
 
     vagrant rsync-back
-
-You need to run this every time you need to pull changes from your guest back to your host machine
-
