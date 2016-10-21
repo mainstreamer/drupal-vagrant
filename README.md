@@ -42,17 +42,14 @@ cd into project and run:
      composer install
 
 Use rsync to immediately push any changes from your host to guest
-to do that - go to project root and run:
+
+To do that - go to project root and run:
 
 vagrant rsync-auto
 
 to sync files from guest to host install vagrant plugin vagrant-rsync-back
 
-run: vagrant rsync-back
-every time you need to pull changes from your guest back to your host machine
+    run: vagrant rsync-back
 
-mysql user root 
-mysql pass root
-access your machine from localhost:8888
-
+you need to run this every time you need to pull changes from your guest back to your host machine
 
