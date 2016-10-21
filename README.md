@@ -37,9 +37,9 @@ enjoy :)
 Note - first boot might be slow (20-30 sec ) that's drupal is warming up cache and stuff
 
 ### File sync:
->cd into project and run:
-> 
->     composer install
+cd into project and run:
+ 
+     composer install
 
 Use rsync to immediately push any changes from your host to guest
 to do that - go to project root and run:
