@@ -45,11 +45,11 @@ Use rsync to immediately push any changes from your host to guest
 
 To do that - go to project root and run:
 
-vagrant rsync-auto
+    vagrant rsync-auto
 
-to sync files from guest to host install vagrant plugin vagrant-rsync-back
+to sync files from guest to host install vagrant plugin **vagrant-rsync-back** and run
 
-    run: vagrant rsync-back
+    vagrant rsync-back
 
-you need to run this every time you need to pull changes from your guest back to your host machine
+You need to run this every time you need to pull changes from your guest back to your host machine
 
