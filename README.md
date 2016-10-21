@@ -1,20 +1,28 @@
 # drupal-vagrant
 # Vagrant virtual machine with clean Drupal 8.x inside
 
+#### Requirements:
+* vagrant
+* virtual box
+* composer
+
 #### VM specs:
 * Ubuntu 16.04
 * PHP 7
 * Mysql 5.7
 * Drupal
 
-mysql user root 
-mysql pass root
-localhost:8888
+>mysql user 
+>
+>    root 
+>mysql pass 
+>
+>    root 
+>access
+>
+>    localhost:8888
 
-requirements:
-* vagrant
-* virtual box
-* composer
+
 
 > ## Installation:
 > 
