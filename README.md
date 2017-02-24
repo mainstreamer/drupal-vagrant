@@ -30,7 +30,7 @@
 >     ./bootstrap-vm.sh
      
  
-That's it, now go to http://localhost:8888 on your host machine
+That's it, now go to http://192.168.168.168 on your host machine
    &
 enjoy :sunglasses:
 
@@ -38,6 +38,7 @@ enjoy :sunglasses:
 Note - first boot might be slow (20-30 sec ) that's drupal is warming up cache and stuff
 
 
+### If default NFS is slow try rsync:
 ### File sync:
 
 Use rsync to immediately push any changes from your host to guest
